@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #87CEEB; /* Vivid Light Blue */
+}
+
+header {
+  background-color: #000080; /* Navy Blue */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+#profile-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a, nav button {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover, nav button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+header.dark-mode {
+  background-color: #1a1a1a;
+}
+
+nav.dark-mode {
+  background-color: #1a1a1a;
+}
+
+nav button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+nav button.nav-toggle {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+nav button.nav-toggle:hover {
+  background-color: #ddd;
+  color: black;
+}
